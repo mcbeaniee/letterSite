@@ -1,0 +1,92 @@
+.center-text {
+    text-align: center;
+}
+
+@font-face {
+    font-family: VCR;
+    src: url(/assets/VCR_OSD_MONO_1.001.ttf);
+}
+
+h1 {
+    color: red;
+    font-family: VCR;
+    text-align: center;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: VCR;
+    text-align: center;
+}
+
+.bordered {
+    border-style: solid;
+    border-color:white;
+    border-width:thick;
+}
+
+.level-paragraph-left {
+   text-align: left; 
+   line-height: 1.5;
+}
+
+.level-paragraph-right {
+    text-align: right; 
+    line-height: 1.5;
+ }
+
+.button {
+    border: solid,white,thick;
+    position: absolute;
+    left:45%;
+    font-family: VCR;
+    font-size:x-large;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin:5px;
+}
+
+.button:hover {
+    border: solid,grey,thick;
+    font-family: VCR;
+    font-size:x-large;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin:5px;
+}
+
+.grid-container {
+    display:grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6em;
+}
+
+.grid-container2 {
+    display:grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 6em;
+
+}
+
+.text-grid-container {
+    display:grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 4em;
+    padding: 4em;
+    gap: 2em;
+}
+
+.middle-text {
+    text-align: center; 
+    line-height: 1.5;
+    position: absolute;
+    left:32%;
+    width: 700px;
+}
